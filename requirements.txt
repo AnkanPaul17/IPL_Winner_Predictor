@@ -1,6 +1,8 @@
-numpy==1.26.4
-scipy==1.10.1
-scikit-learn==1.2.2
+numpy==2.0.2          # works with Python 3.13
+scikit-learn==1.6.1   # no SciPy required
+pandas==2.3.0         # already compatible with NumPy 2.x
+
+# everything else exactly as before
 altair==5.5.0
 attrs==25.3.0
 blinker==1.9.0
@@ -19,7 +21,6 @@ jsonschema-specifications==2025.4.1
 MarkupSafe==3.0.2
 narwhals==1.44.0
 packaging==25.0
-pandas==2.3.0
 pillow==11.2.1
 protobuf==6.31.1
 pyarrow==20.0.0
@@ -40,6 +41,7 @@ typing-extensions==4.14.0
 tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
+
 
 
 
